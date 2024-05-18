@@ -7,5 +7,7 @@ function processArray(numbers) {
         }
     });
     return manipulatedArray;
+
+    
 }
 
