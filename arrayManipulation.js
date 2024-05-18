@@ -20,3 +20,9 @@ function formatArrayStrings(strings, numbers) {
     });
     return formattedArray;
 }
+
+//Test example
+const strings = ["Hello", "World", "HappyHacking"];
+const numbers = [6, 7, 8, 9, 10];
+const processedNumbers = processArray(numbers);
+console.log(formatArrayStrings(strings, processedNumbers));
