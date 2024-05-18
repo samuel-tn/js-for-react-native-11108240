@@ -8,6 +8,15 @@ function processArray(numbers) {
     });
     return manipulatedArray;
 
-    
 }
 
+function formatArrayStrings(strings, numbers) {
+    const formattedArray = strings.map((str, index) => {
+        if (numbers[index] % 2 === 0){
+            return str.toUpperCase();
+        }else{
+            return str.toLowerCase();
+        }
+    });
+    return formattedArray;
+}
